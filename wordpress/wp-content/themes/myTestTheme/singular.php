@@ -36,19 +36,20 @@
 
     <!-- Loop this -->
     <h3>
-      <a href="<?php the_permalink(); ?>">
         <?php
-          //title info on main page
+          //return title in singular
           the_title();
         ?>
-      </a>
+      Loop number
     </h3>
+    <?php
+      //return content in singular
+      the_content();
+    ?>
 
-  <!-- end php loop -->
   <?php
     //end while loop
-    endwhile; else:
-  ?>
+    endwhile; else: ?>
   <p>
     <?php
       //if no posts matched
