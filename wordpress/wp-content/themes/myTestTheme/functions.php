@@ -10,7 +10,9 @@ function create_post_type() {
       'public' => true,
       //
       'labels' => array(
-        'name' => 'postName', //__('postName') to be translatable
+        //
+        'name' => 'postName', /* __('postName') to be translatable */
+        //singular name of posttype
         'singular' => "singlularPostName"
       )
     )
