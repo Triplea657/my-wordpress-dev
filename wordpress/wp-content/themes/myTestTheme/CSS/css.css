@@ -1,17 +1,23 @@
 
 
-a {
-  color: orange;
+/* css select for all elements including browser default
+
+* {
+
 }
-a:visited {
-  color: red;
+
+end comment */
+
+
+
+body {
+  background-image: url("https://image.freepik.com/free-psd/abstract-background-design_1297-87.jpg");
+  background-size: cover;
+  color: white;
+  width: 85%;
+  margin: 0 auto;
 }
-a:link {
-  color: purple;
-}
-a:hover {
-  color: yellow;
-}
-h3 {
-  color: blue;
+/* body of post */
+body.post {
+
 }
