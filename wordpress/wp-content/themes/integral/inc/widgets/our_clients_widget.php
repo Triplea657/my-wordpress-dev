@@ -17,8 +17,8 @@ class Integral_Our_Clients_Widget extends WP_Widget {
         
         //setup default widget data
 		$this->defaults = array(
-			'image_url'    => '',
-            'image_link'    => '',
+			'image_url' => '',
+            'image_link' => '',
 		);
     }
 

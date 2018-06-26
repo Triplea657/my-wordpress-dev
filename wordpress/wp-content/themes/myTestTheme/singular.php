@@ -40,7 +40,6 @@
           //return title in singular
           the_title();
         ?>
-      Loop number
     </h3>
     <?php
       //return content in singular

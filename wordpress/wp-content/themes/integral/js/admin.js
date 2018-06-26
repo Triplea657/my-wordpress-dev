@@ -32,7 +32,7 @@ jQuery(document).ready( function(){
                 // We set multiple to false so only get one image from the uploader
                 attachment = wcp_image_widget.state().get('selection').first().toJSON();
 
-                jQuery(this_widget).find('.image-url').val(attachment.url);
+                jQuery(this_widget).find('.image-url').val(attachment.url).trigger('change');
                 jQuery(this_widget).find('.image-title').val(attachment.title);
                 jQuery(this_widget).find('.alttext').val(attachment.alt);
                 jQuery(this_widget).find('.img-prev').html('<img src="'+attachment.url+'" width="100%">')

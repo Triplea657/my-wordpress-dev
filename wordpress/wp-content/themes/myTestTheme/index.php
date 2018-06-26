@@ -21,17 +21,14 @@
        ?>
     </h2>
 
-
-    <!--p>
-      <?php ?>
-    </p-->
+    <!---->
+    <?php
+      
+    ?>
 
     <!-- begin php loop -->
-    <?php
-      //if any posts
-      if(have_posts()):
-        //while has posts, begin while loop
-        while(have_posts()): the_post();
+    <?php if(have_posts()): //if any posts
+        while(have_posts()): the_post(); //while has posts, begin while loop
     ?>
 
     <!-- Loop this -->
@@ -45,13 +42,10 @@
     </h3>
 
   <!-- end php loop -->
-  <?php
-    //end while loop
-    endwhile; else:
+  <?php /* end while loop */endwhile; else:
   ?>
   <p>
-    <?php
-      //if no posts matched
+    <?php //if no posts matched
       esc_html_e('Sorry, no posts matched your criteria.');
     ?>
   </p>

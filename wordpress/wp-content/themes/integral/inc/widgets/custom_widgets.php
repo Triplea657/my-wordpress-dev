@@ -15,7 +15,7 @@
 	        return;
 	    }
 	    wp_enqueue_media();
-	    wp_enqueue_script( 'wcp_uploader', get_template_directory_uri(). '/js/admin.js', array('jquery') );
+	    wp_enqueue_script('wcp_uploader', get_template_directory_uri(). '/js/admin.js', array('jquery') );
 	    wp_enqueue_script('jquery-ui-datepicker');
 	    wp_enqueue_script('jquery-ui-core');
 	}

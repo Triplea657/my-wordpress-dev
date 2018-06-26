@@ -1,3 +1,10 @@
+### 1.4.3.2 - June 22nd, 2018
+
+Changes:
+
+- Added event change trigger to /js/admin.js
+
+
 ### 1.4.3.1 - June 5th, 2018
 
 Changes:
