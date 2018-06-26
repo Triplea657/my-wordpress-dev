@@ -23,6 +23,17 @@ function create_post_type() {
 
 }
 
+//call create post type
 add_action('init','create_post_type');
+
+
+//function to load CSS for theme
+function loadCSS() {
+  //load after WP admin files
+  wp_enqueue_style( 'theme-style', get_template_directory_uri() . "/CSS/css.css");
+}
+
+//run script load CSS
+add_action('wp_enqueue_scripts', 'loadCSS')
 
 ?>
